@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - stable
+deploy:
+  provider: heroku
+  api_key:
+    secure: 
+      put: UMSgUV4NKXBVe0q/kQxcC6hc9Xm1drRT/f8xE/vBR5yILkTxwACRs+253wemZjLcpnDN5zC2KS2snxpx9/gkXUla9Aqw7VcGRBovWAdXJzCVy0OJ7VOEfP1LKbuU2CqGPwgH9gntA2aRVrxaX5uhIkEJ0fJmKkdux4VbGXZWtQkpFgT29RHmkLVT+aZyQZID77GyocGPPswEZHmaOhxutcH5RYlI8jyrMLt+9PnFlLaZ/izLkNe7BhUFi+/L+BJrppdUUTiYYjnGRRqkSDEnnp4O0XwTsVtFfL6Jc3qcJa7uo9aYoUmDXiybUeb7LeBqdPWIIIYWnGxW9tlAdhikY4LcUKp0U8Ng5SPhkLaYeZuAHQeC8bWefHCRBai1DLSGW4YEBtJR65dfcTzU6AC0tHymfU2Sxtk7PfZxnwmWtFfIPngmEifL41rwm1vbbJV4JM6MilEwpR9ASZE1iZyu+iIyyimpQnmlOGtEVDXYe20dvheXWwxBh/iRT79Nm7MBH8QSbZDnjyef/lU7G1V5qwsYfi8GlXdlMjOcpK07q4yvQ7800a4HLD68uZKiZPSxApMuLJNDE55bBHoNU3qHCOrGcAj0h2hDHDUUVApqnuZ5qTgGzQYU19xhfHwwr05qVLi/c3vZ9f5RwERrQg06M040Cch4WaD8JbY4aHBvkVw=
+  app: 
+    name: young-woodland-95792
+  on:
+    repo: karanius/githubtravisheroku
